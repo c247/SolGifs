@@ -150,7 +150,7 @@ const App = () => {
             );
         }
         else {
-            const reversedGifList = [...gifList].reverse();
+            const reversedGifList = [...gifList].reverse().slice(0, 6);
             return (
                 <div className="connected-container">
                     <form
