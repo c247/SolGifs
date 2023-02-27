@@ -168,7 +168,6 @@ const App = () => {
                         {reversedGifList.map((item, index) => (
                             <div className="gif-item" key={index}>
                                 <img src={item.gifLink}/>
-                                <p>{item.userAddress}</p>
                             </div>
                         ))}
                     </div>
