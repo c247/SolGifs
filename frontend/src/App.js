@@ -66,11 +66,6 @@ const App = () => {
 
             console.log("Got the account", account);
             setGifList(account.gifList);
-            for (var i = 0; i < gifList.length; i++) {
-                if (gifList[i] === "https://media.giphy.com/media/26tP3M3i03hoIYL6M/giphy.gif" || gifList[i] === "https://media.giphy.com/media/as521kub4b68hW2JhK/giphy.gif") {
-                    delete gifList[i]
-                }
-            }
         } catch (error) {
             console.log("Error in getGifList: ", error);
             setGifList(null);
