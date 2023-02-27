@@ -1,6 +1,9 @@
 .App {
   height: 100vh;
-  background-color: #1a202c;
+  background-color: #000000;
+  background-image: url('starry-background.jpg');
+  background-repeat: repeat;
+  background-size: auto;
   overflow: scroll;
   text-align: center;
 }
