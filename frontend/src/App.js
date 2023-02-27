@@ -164,7 +164,7 @@ const App = () => {
                         </button>
                     </form>
                     <div className="gif-grid">
-                        {gifList.map((item, index) => (
+                        {gifList.filter(item => item.gifLink !=="https://media.giphy.com/media/26tP3M3i03hoIYL6M/giphy.gif" || item.gifLink !=="https://media.giphy.com/media/as521kub4b68hW2JhK/giphy.gif").map((item, index) => (
                             <div className="gif-item" key={index}>
                                 <img src={item.gifLink}/>
                             </div>
