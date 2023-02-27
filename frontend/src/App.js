@@ -150,6 +150,7 @@ const App = () => {
             );
         }
         else {
+            const reversedGifList = [...gifList].reverse();
             return (
                 <div className="connected-container">
                     <form
@@ -164,7 +165,7 @@ const App = () => {
                         </button>
                     </form>
                     <div className="gif-grid">
-                        {gifList.map((item, index) => (
+                        {reversedGifList.map((item, index) => (
                             <div className="gif-item" key={index}>
                                 <img src={item.gifLink}/>
                             </div>
