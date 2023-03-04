@@ -5,6 +5,8 @@
 Solana blockchain, ensuring data security and immutability.
 • Integrated with Phantom wallet to allow users to connect their Solana wallet seamlessly and access their GIFs securely.
 
+Go to frontend folder
+
 ```
 npm install
 npm run start
