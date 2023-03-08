@@ -5,6 +5,7 @@
 Solana blockchain, ensuring data security and immutability.
 • Integrated with Phantom wallet to allow users to connect their Solana wallet seamlessly and access their GIFs securely.
 
+DEMO: https://sol-gifs.vercel.app/
 Go to frontend folder
 
 ```
