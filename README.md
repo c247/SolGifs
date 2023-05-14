@@ -7,6 +7,8 @@ Solana blockchain, ensuring data security and immutability.
 
 DEMO: https://sol-gifs.vercel.app/
 
+Solana Explorer: https://explorer.solana.com/address/4dXV628acNZ79ttyxwUYEMy7WKZj7K2oQ6j1RBBPb4az
+
 To run locally:
 Go to frontend folder
 
